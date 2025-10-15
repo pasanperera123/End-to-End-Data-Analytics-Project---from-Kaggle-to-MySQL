@@ -1,4 +1,6 @@
 -- It's better to define the table with correct data types and then import the data.
+CREATE DATABASE IF NOT EXISTS orders_db;
+
 CREATE TABLE IF NOT EXISTS orders_db.orders_tb (
   order_id INT PRIMARY KEY,
   order_date DATE,
